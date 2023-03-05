@@ -10,7 +10,7 @@ function Card(props){
                     <span className="card--location">
                         <img className="place-marker" src={placemarker} alt="place-marker" />
                         <span className="card--country">{props.item.country}</span>
-                        <a href={props.item.mapLocation} target="_blank">view on Maps</a>
+                        <a href={props.item.mapLocation} target="_blank" rel="noreferrer">view on Maps</a>
                     </span>
                     <h3 className="card--place">{props.item.place}</h3>
                     <p className="card--date">{props.item.travelingDate}</p>
